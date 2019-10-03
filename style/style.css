@@ -3,19 +3,27 @@ html {
   color: rgb(12, 12, 12);
   margin: 0;
   padding: 0;
+  height: 100%;
 }
+
+
 
 body {
   margin: 0;
   padding: 0;
   background-color: rgb(98, 133, 115);
-  background-image: url("/img/hugo-background.jpg");
-  background-repeat: no-repeat;
+height: 100%
 
+}
+.bg{
+  background-image: url("/img/hugo-background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navigation {
-  background-color: rgba(alpha);
 float: leftS;
 text-transform: uppercase;
 
