@@ -9,6 +9,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(98, 133, 115);
+  background-image: url("/img/hugo-background.jpg");
+  background-repeat: no-repeat;
+
 }
 
 .navigation {
