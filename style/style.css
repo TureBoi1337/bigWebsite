@@ -16,8 +16,7 @@ height: 100%
 
 }
 .bg{
-  background-image: url("/img/hugo-background.jpg");
-  height: 100%;
+  background-image: url("/img/axel.av.saletti.grill.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,15 +28,19 @@ text-transform: uppercase;
 
 }
 
+
+
 .navigation ul {
-  margin: 0;
-  padding: 0;
+
+  margin: 0px;
+  padding: 0px;
 justify-content: center;
 align-content: center;
 }
 
 .navigation ul,
 li {
+  margin-top: 0px;
   list-style: none;
   text-align: center;
   float: left;
