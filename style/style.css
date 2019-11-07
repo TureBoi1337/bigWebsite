@@ -6,45 +6,107 @@ html {
   height: 100%;
 }
 
-
-
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(192, 35, 61);
+}
+.navigation {
+  float: right;
+  text-transform: uppercase;
+}
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation ul li {
+  list-style-type: none;
+  text-align: center;
+  float: right;
+}
+
+.navigation ul li a {
+  text-decoration: whitesmoke;
+  color: whitesmoke;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  display: block;
+  width: 125px;
+  height: 50px;
+}
+.navigation ul li a:hover {
+  color: aquamarine;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+}
+.button:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+@media all and (max-width: 30em) {
+   .button {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
+
+.contact-form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 5px;
+  border: 1px solid rgb(243, 247, 248);
+  border-radius: 5px;
+}
+
+.input-labels {
+  display: inline-block;
+  width: 90px;
+  text-align: left;
+}
+
+input,
+textarea {
+  font: 14px "Comic Sans MS";
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.intput-container{
+  margin-top: 20px;
+}
+
+textarea{
+  vertical-align: top;
+  height: 150;
 
 
 }
 
-
-
-
-
-
-
-
-.button{
-  display:inline-block;
-  padding:0.35em 1.2em;
-  border:0.1em solid #FFFFFF;
-  margin:0 0.3em 0.3em 0;
-  border-radius:0.12em;
-  box-sizing: border-box;
-  text-decoration:none;
-  font-family:'Roboto',sans-serif;
-  font-weight:300;
-  color:#FFFFFF;
-  text-align:center;
-  transition: all 0.2s;
-  }
-  .button:hover{
-  color:#000000;
-  background-color:#FFFFFF;
-  }
-  @media all and (max-width:30em){
-   .button{
-  display:block;
-  margin:0.4em auto;}
-  }
+.input-button{
+  padding-left: 20px;
+  margin-left: 10px;
+  float: left;
+  text-align: left
+}
 
 
 
