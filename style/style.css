@@ -9,8 +9,10 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(192, 35, 61);
+  background-image: url("../img/åsBakgrund.jpg")
 }
+
+
 
 .button {
   display: inline-block;
