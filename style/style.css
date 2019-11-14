@@ -1,5 +1,5 @@
 html {
-  font-family: "Comic Sans MS";
+  font-family: "Roboto", sans-serif;;
   color: rgb(12, 12, 12);
   margin: 0;
   padding: 0;
@@ -10,36 +10,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(192, 35, 61);
-}
-.navigation {
-  float: right;
-  text-transform: uppercase;
-}
-.navigation ul {
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  align-items: center;
-}
-
-.navigation ul li {
-  list-style-type: none;
-  text-align: center;
-  float: right;
-}
-
-.navigation ul li a {
-  text-decoration: whitesmoke;
-  color: whitesmoke;
-  padding: 0;
-  margin: 0;
-  font-size: 18px;
-  display: block;
-  width: 125px;
-  height: 50px;
-}
-.navigation ul li a:hover {
-  color: aquamarine;
 }
 
 .button {
@@ -55,6 +25,7 @@ body {
   color: #ffffff;
   text-align: center;
   transition: all 0.2s;
+position: sticky;
 }
 .button:hover {
   color: #000000;
@@ -90,25 +61,18 @@ textarea {
   border-radius: 5px;
 }
 
-.intput-container{
+.intput-container {
   margin-top: 20px;
 }
 
-textarea{
+textarea {
   vertical-align: top;
   height: 150;
-
-
 }
 
-.input-button{
+.input-button {
   padding-left: 20px;
   margin-left: 10px;
   float: left;
-  text-align: left
+  text-align: left;
 }
-
-
-
-
-
