@@ -9,10 +9,16 @@ html {
 body {
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   background-color: rgb(74, 26, 138);
   position: relative;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7c/NGC_1672_HST.jpg") ;
+=======
+  background-image: url("../img/åsBakgrund.jpg")
+>>>>>>> 977f275b704a8ff4194ffbea68c52b1642a16f7c
 }
+
+
 
 .button {
   display: inline-block;
