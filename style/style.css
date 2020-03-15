@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(74, 26, 138);
+  position: relative;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7c/NGC_1672_HST.jpg") ;
 }
 
